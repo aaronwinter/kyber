@@ -10,11 +10,11 @@ import (
 	"reflect"
 
 	"github.com/dedis/fixbuf"
-	"github.com/dedis/kyber"
+	"gopkg.in/dedis/kyber.v1"
 
-	"github.com/dedis/kyber/group/internal/marshalling"
-	"github.com/dedis/kyber/util/random"
-	"github.com/dedis/kyber/xof/blake"
+	"gopkg.in/dedis/kyber.v1/group/internal/marshalling"
+	"gopkg.in/dedis/kyber.v1/util/random"
+	"gopkg.in/dedis/kyber.v1/xof/blake"
 )
 
 type SuiteEd25519 struct {
@@ -47,7 +47,7 @@ func (s *SuiteEd25519) RandomStream() cipher.Stream {
 }
 
 // NewBlakeSHA256Curve25519 returns a cipher suite based on package
-// github.com/dedis/kyber/xof/blake, SHA-256, and Curve25519.
+// gopkg.in/dedis/kyber.v1/xof/blake, SHA-256, and Curve25519.
 //
 // If fullGroup is false, then the group is the prime-order subgroup.
 func NewBlakeSHA256Curve25519(fullGroup bool) *SuiteEd25519 {

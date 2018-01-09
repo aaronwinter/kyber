@@ -5,7 +5,7 @@ package edwards25519
 import (
 	"testing"
 
-	"github.com/dedis/kyber"
+	"gopkg.in/dedis/kyber.v1"
 )
 
 func TestVartime(t *testing.T) {

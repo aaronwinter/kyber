@@ -3,8 +3,8 @@ package share
 import (
 	"testing"
 
-	"github.com/dedis/kyber/group/edwards25519"
 	"github.com/stretchr/testify/assert"
+	"gopkg.in/dedis/kyber.v1/group/edwards25519"
 )
 
 func TestSecretRecovery(test *testing.T) {

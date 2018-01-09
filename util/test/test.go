@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"crypto/cipher"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/util/key"
-	"github.com/dedis/kyber/util/random"
+	"gopkg.in/dedis/kyber.v1"
+	"gopkg.in/dedis/kyber.v1/util/key"
+	"gopkg.in/dedis/kyber.v1/util/random"
 )
 
 // Suite represents the functionalities that this package can test

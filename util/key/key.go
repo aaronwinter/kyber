@@ -4,7 +4,7 @@ package key
 import (
 	"crypto/cipher"
 
-	"github.com/dedis/kyber"
+	"gopkg.in/dedis/kyber.v1"
 )
 
 // Generator is a type that needs to implement a special case in order

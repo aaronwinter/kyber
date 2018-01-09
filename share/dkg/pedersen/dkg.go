@@ -5,10 +5,10 @@ package dkg
 import (
 	"errors"
 
-	"github.com/dedis/kyber"
+	"gopkg.in/dedis/kyber.v1"
 
-	"github.com/dedis/kyber/share"
-	vss "github.com/dedis/kyber/share/vss/pedersen"
+	"gopkg.in/dedis/kyber.v1/share"
+	vss "gopkg.in/dedis/kyber.v1/share/vss/pedersen"
 )
 
 // Suite wraps the functionalities needed by the dkg package

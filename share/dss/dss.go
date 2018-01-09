@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/share"
-	"github.com/dedis/kyber/sign/eddsa"
-	"github.com/dedis/kyber/sign/schnorr"
+	"gopkg.in/dedis/kyber.v1"
+	"gopkg.in/dedis/kyber.v1/share"
+	"gopkg.in/dedis/kyber.v1/sign/eddsa"
+	"gopkg.in/dedis/kyber.v1/sign/schnorr"
 )
 
 // Suite represents the functionalities needed by the dss package
